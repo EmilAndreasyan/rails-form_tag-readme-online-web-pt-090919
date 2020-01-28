@@ -1,0 +1,7 @@
+<%= form_tag posts_path do %>
+<label>Post title: </label><br>
+<input type="text" name="post[title]"><br>
+<label>Post description: </label><br>
+<input type="text" name="post[description]"><br>
+<%= submit_tag "Submit post" %>
+<% end %>
